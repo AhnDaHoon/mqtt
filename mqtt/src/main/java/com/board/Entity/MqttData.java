@@ -1,9 +1,14 @@
 package com.board.Entity;
 
+import lombok.Setter;
+import lombok.ToString;
+
 import javax.persistence.*;
 
 @Entity
-@Table(name = "mqtt_test_db")
+@ToString
+@Setter
+@Table(name = "mqtt_data")
 public class MqttData {
 
     @Id

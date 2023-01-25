@@ -8,6 +8,7 @@ class MqttApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }
